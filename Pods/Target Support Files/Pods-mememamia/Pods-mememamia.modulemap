@@ -1,0 +1,6 @@
+framework module Pods_mememamia {
+  umbrella header "Pods-mememamia-umbrella.h"
+
+  export *
+  module * { export * }
+}
