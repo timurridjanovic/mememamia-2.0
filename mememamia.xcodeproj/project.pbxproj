@@ -10,7 +10,6 @@
 		33D269B01C5F000B00F9F638 /* MemeTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D269AF1C5F000B00F9F638 /* MemeTextFieldDelegate.swift */; };
 		33D269B31C5F368B00F9F638 /* memeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D269B21C5F368B00F9F638 /* memeModel.swift */; };
 		33F0F5331C9B1A1C00E02ABF /* impact.otf in Resources */ = {isa = PBXBuildFile; fileRef = 33F0F5321C9B1A1C00E02ABF /* impact.otf */; };
-		33F0F5351C9B20C200E02ABF /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33F0F5341C9B20C200E02ABF /* Launch Screen.storyboard */; };
 		33FFC33C1C5D35BB00664DDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FFC33B1C5D35BB00664DDB /* AppDelegate.swift */; };
 		33FFC33E1C5D35BB00664DDB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FFC33D1C5D35BB00664DDB /* MainViewController.swift */; };
 		33FFC3411C5D35BB00664DDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33FFC33F1C5D35BB00664DDB /* Main.storyboard */; };
@@ -43,7 +42,6 @@
 		33D269AF1C5F000B00F9F638 /* MemeTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemeTextFieldDelegate.swift; sourceTree = "<group>"; };
 		33D269B21C5F368B00F9F638 /* memeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = memeModel.swift; sourceTree = "<group>"; };
 		33F0F5321C9B1A1C00E02ABF /* impact.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = impact.otf; path = ../../../Desktop/impact.otf; sourceTree = "<group>"; };
-		33F0F5341C9B20C200E02ABF /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		33FFC3381C5D35BB00664DDB /* Mememamia.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mememamia.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33FFC33B1C5D35BB00664DDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33FFC33D1C5D35BB00664DDB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -140,7 +138,6 @@
 				33D269B11C5F366E00F9F638 /* models */,
 				33D269AE1C5EFFC800F9F638 /* delegates */,
 				33FFC33B1C5D35BB00664DDB /* AppDelegate.swift */,
-				33F0F5341C9B20C200E02ABF /* Launch Screen.storyboard */,
 				33FFC33D1C5D35BB00664DDB /* MainViewController.swift */,
 				33FFC33F1C5D35BB00664DDB /* Main.storyboard */,
 				33FFC3421C5D35BB00664DDB /* Assets.xcassets */,
@@ -296,7 +293,6 @@
 				33FFC3461C5D35BB00664DDB /* LaunchScreen.storyboard in Resources */,
 				33FFC3431C5D35BB00664DDB /* Assets.xcassets in Resources */,
 				33FFC3411C5D35BB00664DDB /* Main.storyboard in Resources */,
-				33F0F5351C9B20C200E02ABF /* Launch Screen.storyboard in Resources */,
 				33F0F5331C9B1A1C00E02ABF /* impact.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
