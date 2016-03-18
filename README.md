@@ -13,5 +13,6 @@
     ```sh
     pod install
     ```
+
 3.  open the .xcworkspace file
 
