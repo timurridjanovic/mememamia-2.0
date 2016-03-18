@@ -5,17 +5,17 @@
 **Build Instructions**:
 
 1.
-    ```bash
+    ```shell
     gem install cocoapods
     ```
 
 2.
-    ```bash
+    ```shell
     pod install
     ```
 
 3. 
-    ```bash 
+    ```shell
     open mememamia.xcworkspace
     ```
 
