@@ -5,14 +5,15 @@
 **Build Instructions**:
 
 1.
-    ```sh
+    ```
     gem install cocoapods
     ```
 
 2.
-    ```sh
+    ```
     pod install
     ```
 
-3.  open the .xcworkspace file
+3.  
+    open the .xcworkspace file
 
