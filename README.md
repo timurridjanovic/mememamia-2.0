@@ -8,9 +8,11 @@
     ```sh
     gem install cocoapods
     ```
+
 2.
     ```sh
     pod install
     ```
+
 3.  open the .xcworkspace file
 
