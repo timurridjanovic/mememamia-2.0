@@ -240,7 +240,7 @@ class MainViewController: UIViewController, UIImagePickerControllerDelegate, UIN
     func keyboardWillShow(notification: NSNotification) {
         if bottomInput.editing && !keyboardHidden {
             keyboardHidden = true
-            self.view.frame.origin.y -= getKeyboardHeight(notification)
+            self.view.frame.origin.y = getKeyboardHeight(notification) * -1
         }
     }
     
