@@ -66,17 +66,11 @@ class MainViewController: UIViewController, UIImagePickerControllerDelegate, UIN
     }
     
     @IBAction func albumButtonEvent(sender: UIBarButtonItem) {
-        let albumController = UIImagePickerController()
-        albumController.delegate = self
-        albumController.sourceType = UIImagePickerControllerSourceType.PhotoLibrary
-        presentViewController(albumController, animated: true, completion: nil)
+        pickAnImage(UIImagePickerControllerSourceType.PhotoLibrary)
     }
     
     @IBAction func cameraButtonEvent(sender: UIBarButtonItem) {
-        let cameraController = UIImagePickerController()
-        cameraController.delegate = self
-        cameraController.sourceType = UIImagePickerControllerSourceType.Camera
-        presentViewController(cameraController, animated: true, completion: nil)
+        pickAnImage(UIImagePickerControllerSourceType.Camera)
     }
     
     @IBAction func shareButtonEvent(sender: UIBarButtonItem) {
@@ -84,11 +78,20 @@ class MainViewController: UIViewController, UIImagePickerControllerDelegate, UIN
             let memedImage = generateMemedImage()
             let nextController = UIActivityViewController(activityItems: [memedImage], applicationActivities: nil)
             nextController.completionWithItemsHandler = { activity, success, items, error in
-                let _ = Meme(topText: self.topInput.text!, bottomText: self.bottomInput.text!, image: image, memedImage: memedImage)
-                nextController.dismissViewControllerAnimated(true, completion: nil)
+                if success {
+                    let _ = Meme(topText: self.topInput.text!, bottomText: self.bottomInput.text!, image: image, memedImage: memedImage)
+                    nextController.dismissViewControllerAnimated(true, completion: nil)
+                }
             }
             presentViewController(nextController, animated: true, completion: nil)
         }
+    }
+    
+    private func pickAnImage(sourceType: UIImagePickerControllerSourceType) {
+        let controller = UIImagePickerController()
+        controller.delegate = self
+        controller.sourceType = sourceType
+        presentViewController(controller, animated: true, completion: nil)
     }
     
     private func getAttributesWithNewFontSize(fontSize: CGFloat) -> [String: AnyObject] {
