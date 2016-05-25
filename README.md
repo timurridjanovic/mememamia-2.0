@@ -16,5 +16,5 @@
 
 3.
     ```
-    open mememamia.xcworkspace
+    open Mememamia.xcworkspace
     ```
