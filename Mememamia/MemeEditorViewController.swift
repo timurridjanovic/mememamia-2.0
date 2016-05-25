@@ -175,8 +175,10 @@ class MemeEditorViewController: UIViewController, UIImagePickerControllerDelegat
     private func layoutTextFields() {
         removeConstraints([topPositionConstraint, topWidthConstraint, bottomPositionConstraint, bottomWidthConstraint])
         
-        if let bounds = editModeMeme?.bounds {
-            imageView.bounds = bounds
+        if editMode {
+            if let bounds = editModeMeme?.bounds {
+                imageView.bounds = bounds
+            }
         }
         
         //Get the position of the image inside the imageView
