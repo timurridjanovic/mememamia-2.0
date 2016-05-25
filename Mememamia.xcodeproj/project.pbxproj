@@ -23,7 +23,7 @@
 		33FFC3461C5D35BB00664DDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33FFC3441C5D35BB00664DDB /* LaunchScreen.storyboard */; };
 		33FFC3511C5D35BB00664DDB /* MememamiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FFC3501C5D35BB00664DDB /* MememamiaTests.swift */; };
 		33FFC35C1C5D35BB00664DDB /* MememamiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FFC35B1C5D35BB00664DDB /* MememamiaUITests.swift */; };
-		D0EC25BF49364A6FE377F564 /* Pods_mememamia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 211E84612A698136A85477CF /* Pods_mememamia.framework */; };
+		3D148766A096AE06962A8348 /* Pods_mememamia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 381C27BE50431C1185009A8D /* Pods_mememamia.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,15 +44,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		211E84612A698136A85477CF /* Pods_mememamia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mememamia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		332A4F611CEBD4B80094129E /* MemeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MemeDetailViewController.swift; path = ../../Mememamia/Mememamia/MemeDetailViewController.swift; sourceTree = "<group>"; };
+		332A4F611CEBD4B80094129E /* MemeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MemeDetailViewController.swift; path = ../Mememamia/MemeDetailViewController.swift; sourceTree = "<group>"; };
 		337451751C9B63B7008FE6F5 /* impact.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = impact.otf; sourceTree = "<group>"; };
-		33C046C01CECC99F00CA6A15 /* MemeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MemeCollectionViewCell.swift; path = ../../Mememamia/Mememamia/MemeCollectionViewCell.swift; sourceTree = "<group>"; };
-		33C046C31CECE58D00CA6A15 /* MemeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MemeTableViewCell.swift; path = ../../Mememamia/Mememamia/MemeTableViewCell.swift; sourceTree = "<group>"; };
+		33C046C01CECC99F00CA6A15 /* MemeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MemeCollectionViewCell.swift; path = ../Mememamia/MemeCollectionViewCell.swift; sourceTree = "<group>"; };
+		33C046C31CECE58D00CA6A15 /* MemeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MemeTableViewCell.swift; path = ../Mememamia/MemeTableViewCell.swift; sourceTree = "<group>"; };
 		33D269AF1C5F000B00F9F638 /* MemeTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemeTextFieldDelegate.swift; sourceTree = "<group>"; };
 		33D269B21C5F368B00F9F638 /* MemeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemeModel.swift; sourceTree = "<group>"; };
-		33FA908D1CD69E3F0076BD5D /* CreatedMemeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreatedMemeTableViewController.swift; path = ../../Mememamia/Mememamia/CreatedMemeTableViewController.swift; sourceTree = "<group>"; };
-		33FA908F1CD69EE40076BD5D /* CreatedMemeCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreatedMemeCollectionViewController.swift; path = ../../Mememamia/Mememamia/CreatedMemeCollectionViewController.swift; sourceTree = "<group>"; };
+		33FA908D1CD69E3F0076BD5D /* CreatedMemeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreatedMemeTableViewController.swift; path = ../Mememamia/CreatedMemeTableViewController.swift; sourceTree = "<group>"; };
+		33FA908F1CD69EE40076BD5D /* CreatedMemeCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreatedMemeCollectionViewController.swift; path = ../Mememamia/CreatedMemeCollectionViewController.swift; sourceTree = "<group>"; };
 		33FA90911CD6B7C70076BD5D /* CreateMeme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateMeme.swift; sourceTree = "<group>"; };
 		33FFC3381C5D35BB00664DDB /* Mememamia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mememamia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33FFC33B1C5D35BB00664DDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -67,8 +66,9 @@
 		33FFC3571C5D35BB00664DDB /* Mememamia.temp_caseinsensitive_rename.temp_caseinsensitive_rename.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mememamia.temp_caseinsensitive_rename.temp_caseinsensitive_rename.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33FFC35B1C5D35BB00664DDB /* MememamiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MememamiaUITests.swift; sourceTree = "<group>"; };
 		33FFC35D1C5D35BB00664DDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEE07C13C0B6C3DF1933CFB9 /* Pods-mememamia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mememamia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mememamia/Pods-mememamia.debug.xcconfig"; sourceTree = "<group>"; };
-		CFCE7E45E8093F909C3A2F84 /* Pods-mememamia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mememamia.release.xcconfig"; path = "Pods/Target Support Files/Pods-mememamia/Pods-mememamia.release.xcconfig"; sourceTree = "<group>"; };
+		381C27BE50431C1185009A8D /* Pods_mememamia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mememamia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45CD3674E1BB72155D64CA6B /* Pods-mememamia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mememamia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mememamia/Pods-mememamia.debug.xcconfig"; sourceTree = "<group>"; };
+		AFC642A1766E993DA12E2865 /* Pods-mememamia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mememamia.release.xcconfig"; path = "Pods/Target Support Files/Pods-mememamia/Pods-mememamia.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0EC25BF49364A6FE377F564 /* Pods_mememamia.framework in Frameworks */,
+				3D148766A096AE06962A8348 /* Pods_mememamia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +97,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		181DABA106F3FED30D0118FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45CD3674E1BB72155D64CA6B /* Pods-mememamia.debug.xcconfig */,
+				AFC642A1766E993DA12E2865 /* Pods-mememamia.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		33C046C21CECD42500CA6A15 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,8 +159,8 @@
 				33FFC34F1C5D35BB00664DDB /* MememamiaTests */,
 				33FFC35A1C5D35BB00664DDB /* MememamiaUITests */,
 				33FFC3391C5D35BB00664DDB /* Products */,
-				68AB029FE05ADCF27BC094D9 /* Pods */,
-				B6AD3BF6578BE9CBE8D1CFDE /* Frameworks */,
+				181DABA106F3FED30D0118FE /* Pods */,
+				C6B6549001852F352EE56800 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -202,19 +211,10 @@
 			path = mememamiaUITests;
 			sourceTree = "<group>";
 		};
-		68AB029FE05ADCF27BC094D9 /* Pods */ = {
+		C6B6549001852F352EE56800 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CEE07C13C0B6C3DF1933CFB9 /* Pods-mememamia.debug.xcconfig */,
-				CFCE7E45E8093F909C3A2F84 /* Pods-mememamia.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		B6AD3BF6578BE9CBE8D1CFDE /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				211E84612A698136A85477CF /* Pods_mememamia.framework */,
+				381C27BE50431C1185009A8D /* Pods_mememamia.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -226,12 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33FFC3601C5D35BB00664DDB /* Build configuration list for PBXNativeTarget "mememamia" */;
 			buildPhases = (
-				88D33F6B71590A2D599BC663 /* Check Pods Manifest.lock */,
+				9D68A6A271D794713E96DBCC /* 📦 Check Pods Manifest.lock */,
 				33FFC3341C5D35BB00664DDB /* Sources */,
 				33FFC3351C5D35BB00664DDB /* Frameworks */,
 				33FFC3361C5D35BB00664DDB /* Resources */,
-				9D16D0827C96433C083FBCA8 /* Embed Pods Frameworks */,
-				23D1E8C23C6F6A51B15C6CFF /* Copy Pods Resources */,
+				0D427980393B3F9E02A9DA82 /* 📦 Embed Pods Frameworks */,
+				8EFCB5F63A533890BC219A11 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -351,14 +351,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		23D1E8C23C6F6A51B15C6CFF /* Copy Pods Resources */ = {
+		0D427980393B3F9E02A9DA82 /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mememamia/Pods-mememamia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EFCB5F63A533890BC219A11 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,34 +381,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mememamia/Pods-mememamia-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		88D33F6B71590A2D599BC663 /* Check Pods Manifest.lock */ = {
+		9D68A6A271D794713E96DBCC /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		9D16D0827C96433C083FBCA8 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mememamia/Pods-mememamia-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -550,10 +550,11 @@
 		};
 		33FFC3611C5D35BB00664DDB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEE07C13C0B6C3DF1933CFB9 /* Pods-mememamia.debug.xcconfig */;
+			baseConfigurationReference = 45CD3674E1BB72155D64CA6B /* Pods-mememamia.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = mememamia/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -564,15 +565,17 @@
 		};
 		33FFC3621C5D35BB00664DDB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CFCE7E45E8093F909C3A2F84 /* Pods-mememamia.release.xcconfig */;
+			baseConfigurationReference = AFC642A1766E993DA12E2865 /* Pods-mememamia.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = mememamia/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.timur.udacity.mememamia;
 				PRODUCT_NAME = Mememamia;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Release;
 		};

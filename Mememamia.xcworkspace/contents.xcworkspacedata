@@ -2,9 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/tridjano/Development/udacity-ios-apps/mememamia/Mememamia.xcodeproj">
+      location = "group:Pods/Pods.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Pods/Pods.xcodeproj">
+      location = "group:Mememamia.xcodeproj">
    </FileRef>
 </Workspace>

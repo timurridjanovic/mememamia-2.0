@@ -244,7 +244,7 @@ class MemeEditorViewController: UIViewController, UIImagePickerControllerDelegat
     
     private func enableElements(elements: [NSObject]) {
         elements.forEach({el in
-            if el.respondsToSelector("setEnabled:") {
+            if el.respondsToSelector(Selector("setEnabled:")) {
                 el.setValue(true, forKey: "enabled")
             }
         })
@@ -252,7 +252,7 @@ class MemeEditorViewController: UIViewController, UIImagePickerControllerDelegat
     
     private func disableElements(elements: [NSObject]) {
         elements.forEach({el in
-            if el.respondsToSelector("setEnabled:") {
+            if el.respondsToSelector(Selector("setEnabled:")) {
                 el.setValue(false, forKey: "enabled")
             }
         })
@@ -296,12 +296,12 @@ class MemeEditorViewController: UIViewController, UIImagePickerControllerDelegat
     }
     
     func subscribeToKeyboardNotification() {
-        NSNotificationCenter.defaultCenter().addObserver(self, selector: "keyboardWillShow:", name: UIKeyboardWillShowNotification, object: nil)
-        NSNotificationCenter.defaultCenter().addObserver(self, selector: "keyboardWillHide:", name: UIKeyboardWillHideNotification, object: nil)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(MemeEditorViewController.keyboardWillShow(_:)), name: UIKeyboardWillShowNotification, object: nil)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(MemeEditorViewController.keyboardWillHide(_:)), name: UIKeyboardWillHideNotification, object: nil)
     }
     
     func subscribeToOrientationChange() {
-        NSNotificationCenter.defaultCenter().addObserver(self, selector: "updateTextFields:", name: UIDeviceOrientationDidChangeNotification, object: nil)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(MemeEditorViewController.updateTextFields(_:)), name: UIDeviceOrientationDidChangeNotification, object: nil)
     }
     
     func unsubsribeFromKeyboardNotification() {
